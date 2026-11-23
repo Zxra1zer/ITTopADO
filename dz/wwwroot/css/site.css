@@ -29,3 +29,31 @@ body {
 .form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
   text-align: start;
 }
+
+.restaurant-section {
+  margin-top: 40px;
+  padding: 25px;
+  background-color: #f5f5f5;
+  border-radius: 12px;
+}
+
+.restaurant-section h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.restaurant-list {
+  list-style: none;
+  padding: 0;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.restaurant-list li {
+  background-color: white;
+  padding: 15px 20px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  border-left: 5px solid #198754;
+  font-size: 18px;
+}

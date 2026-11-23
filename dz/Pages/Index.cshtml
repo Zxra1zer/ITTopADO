@@ -8,3 +8,14 @@
     <h1>Случайная английская буква</h1>
     <h2>@Model.RandomLetter</h2>
 </div>
+
+<div class="restaurant-section">
+    <h2>Список ресторанов</h2>
+
+    <ul class="restaurant-list">
+        @foreach (var restaurant in Model.Restaurants)
+        {
+            <li>@restaurant</li>
+        }
+    </ul>
+</div>
