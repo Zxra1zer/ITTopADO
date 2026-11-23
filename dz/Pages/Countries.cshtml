@@ -1,0 +1,16 @@
+﻿@page
+@model CountriesModel
+@{
+    ViewData["Title"] = "Страны";
+}
+
+<div class="countries-section">
+    <h1>Список стран мира</h1>
+
+    <ul class="countries-list">
+        @foreach (var country in Model.Countries)
+        {
+            <li>@country</li>
+        }
+    </ul>
+</div>
